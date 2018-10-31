@@ -1,3 +1,4 @@
+Example 1 Output
 1Variable Selected: 20 with value: false
 1Variables Affected By Forward Checking: 0
 2Variable Selected: 26 with value: false
