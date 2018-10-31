@@ -1,0 +1,25 @@
+Example 4 Output
+1Variable Selected: 64 with value: false
+1Variables Affected By Forward Checking: 0
+2Variable Selected: 82 with value: false
+2Variables Affected By Forward Checking: 0
+3Variable Selected: 9 with value: false
+3Variables Affected By Forward Checking: 0
+4Variable Selected: 14 with value: false
+4Variables Affected By Forward Checking: 0
+5Variable Selected: 20 with value: false
+5Variables Affected By Forward Checking: 0
+6Variable Selected: 34 with value: false
+6Variables Affected By Forward Checking: 0
+7Variable Selected: 41 with value: false
+7Variables Affected By Forward Checking: 1
+8Variable Selected: 55 with value: true
+8Variables Affected By Forward Checking: 0
+9Variable Selected: 42 with value: false
+9Variables Affected By Forward Checking: 0
+10Variable Selected: 48 with value: false
+10Variables Affected By Forward Checking: 0
+No solution found
+Assignments tried: 669966616
+Total execution time: 5583784
+BUILD SUCCESSFUL (total time: 93 minutes 4 seconds)
