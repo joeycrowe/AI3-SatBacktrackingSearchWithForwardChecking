@@ -1,0 +1,83 @@
+1Variable Selected: 20 with value: false
+1Variables Affected By Forward Checking: 0
+2Variable Selected: 26 with value: false
+2Variables Affected By Forward Checking: 0
+3Variable Selected: 29 with value: false
+3Variables Affected By Forward Checking: 0
+4Variable Selected: 31 with value: false
+4Variables Affected By Forward Checking: 0
+5Variable Selected: 34 with value: false
+5Variables Affected By Forward Checking: 0
+6Variable Selected: 7 with value: false
+6Variables Affected By Forward Checking: 0
+7Variable Selected: 9 with value: false
+7Variables Affected By Forward Checking: 0
+8Variable Selected: 11 with value: false
+8Variables Affected By Forward Checking: 0
+9Variable Selected: 14 with value: false
+9Variables Affected By Forward Checking: 0
+10Variable Selected: 16 with value: false
+10Variables Affected By Forward Checking: 0
+Solution Found!
+Assignments tried: 2541
+1: true
+2: true
+3: true
+4: true
+5: false
+6: false
+7: false
+8: false
+9: false
+10: false
+11: false
+12: false
+13: false
+14: false
+15: false
+16: false
+17: false
+18: false
+19: false
+20: false
+21: false
+22: false
+23: false
+24: false
+25: false
+26: false
+27: false
+28: false
+29: false
+30: false
+31: false
+32: false
+33: false
+34: false
+35: true
+36: false
+37: false
+38: false
+39: false
+40: false
+41: true
+42: true
+43: true
+44: false
+45: true
+46: true
+47: true
+48: true
+49: true
+50: true
+51: true
+52: true
+53: true
+54: true
+55: true
+56: true
+57: true
+58: true
+59: false
+60: true
+Total execution time: 94
