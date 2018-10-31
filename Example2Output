@@ -1,0 +1,25 @@
+Example 2 Output
+1Variable Selected: 1 with value: false
+1Variables Affected By Forward Checking: 0
+2Variable Selected: 3 with value: false
+2Variables Affected By Forward Checking: 0
+3Variable Selected: 5 with value: false
+3Variables Affected By Forward Checking: 0
+4Variable Selected: 7 with value: false
+4Variables Affected By Forward Checking: 0
+5Variable Selected: 9 with value: false
+5Variables Affected By Forward Checking: 0
+6Variable Selected: 11 with value: false
+6Variables Affected By Forward Checking: 0
+7Variable Selected: 13 with value: false
+7Variables Affected By Forward Checking: 0
+8Variable Selected: 15 with value: false
+8Variables Affected By Forward Checking: 0
+9Variable Selected: 17 with value: false
+9Variables Affected By Forward Checking: 0
+10Variable Selected: 19 with value: false
+10Variables Affected By Forward Checking: 0
+Solution:
+No solution found
+Assignments tried: 85983230
+Total execution time: 585885
