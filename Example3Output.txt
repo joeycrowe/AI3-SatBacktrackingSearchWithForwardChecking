@@ -1,25 +1,124 @@
 Example 3 Output
-1Variable Selected: 1 with value: false
+1Variable Selected: 41 with value: false
 1Variables Affected By Forward Checking: 0
-2Variable Selected: 3 with value: false
+2Variable Selected: 64 with value: false
 2Variables Affected By Forward Checking: 0
-3Variable Selected: 5 with value: false
+3Variable Selected: 97 with value: false
 3Variables Affected By Forward Checking: 0
 4Variable Selected: 7 with value: false
 4Variables Affected By Forward Checking: 0
 5Variable Selected: 9 with value: false
-5Variables Affected By Forward Checking: 0
-6Variable Selected: 11 with value: false
+5Variables Affected By Forward Checking: 1
+6Variable Selected: 55 with value: true
 6Variables Affected By Forward Checking: 0
-7Variable Selected: 13 with value: false
+7Variable Selected: 10 with value: false
 7Variables Affected By Forward Checking: 0
-8Variable Selected: 15 with value: false
+8Variable Selected: 11 with value: false
 8Variables Affected By Forward Checking: 0
-9Variable Selected: 17 with value: false
-9Variables Affected By Forward Checking: 0
-10Variable Selected: 19 with value: false
-10Variables Affected By Forward Checking: 0
-Solution:
-No solution found
-Assignments tried: 85983230
-Total execution time: 585885
+9Variable Selected: 14 with value: false
+9Variables Affected By Forward Checking: 1
+10Variable Selected: 81 with value: true
+10Variables Affected By Forward Checking: 1
+Solution Found!
+Assignments tried: 102
+1: false
+2: false
+3: false
+4: false
+5: false
+6: false
+7: false
+8: true
+9: false
+10: false
+11: false
+12: false
+13: false
+14: false
+15: false
+16: false
+17: false
+18: false
+19: false
+20: false
+21: false
+22: false
+23: false
+24: false
+25: false
+26: false
+27: false
+28: false
+29: true
+30: false
+31: false
+32: false
+33: false
+34: false
+35: true
+36: true
+37: false
+38: false
+39: false
+40: false
+41: false
+42: false
+43: false
+44: false
+45: false
+46: false
+47: false
+48: false
+49: true
+50: true
+51: true
+52: false
+53: false
+54: false
+55: true
+56: false
+57: false
+58: true
+59: false
+60: true
+61: false
+62: false
+63: false
+64: false
+65: false
+66: false
+67: false
+68: false
+69: false
+70: false
+71: false
+72: false
+73: false
+74: false
+75: false
+76: true
+77: true
+78: true
+79: false
+80: false
+81: true
+82: false
+83: false
+84: false
+85: true
+86: false
+87: false
+88: false
+89: false
+90: false
+91: true
+92: false
+93: false
+94: false
+95: false
+96: false
+97: false
+98: false
+99: false
+100: false
+Total execution time: 38
