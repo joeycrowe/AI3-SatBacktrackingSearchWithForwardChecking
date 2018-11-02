@@ -17,6 +17,9 @@ import java.util.Arrays;
  */
 public class CS4750HW6 {
 
+    public static int variableCount = 0; //these static variables used for the Scatter Plot
+    public static boolean[] TFArray = new boolean[200];
+    
     /**
      * @param args the command line arguments
      */
@@ -75,14 +78,48 @@ public class CS4750HW6 {
         } else {
             System.out.println("Solution Found!");
             System.out.println("Assignments tried: "+ Node.nodeCount);
+            variableCount = result.varCount;
             for (int i=1; i <= result.varCount; i++){
                 System.out.println(i + ": " + result.variableObjList.get(i).value);
+                TFArray[i] = result.variableObjList.get(i).value;
             }
         }
+        
+        buildScatterPlot();
+        
         final long endTime = System.currentTimeMillis();
         System.out.println("Total execution time: " + (endTime - startTime) );
         
-
+    }
+    
+    public static void buildScatterPlot(){
+        System.out.print("\n\t\t\tResults\n\n1 |");
+        for(int i=0; i <= variableCount; i++){
+            if(TFArray[i] == true){
+                System.out.print("o");
+            }else{
+                System.out.print(" ");
+            }
+        }
+        System.out.print("\n  |\n  |\n  |\n  |\n  |\n  |\n  |\n  |\n  |\n  |\n  |\n0 |");
+        for(int i=0; i <= variableCount; i++){
+            if(TFArray[i] == false){
+                System.out.print("o");
+            }else{
+                System.out.print(" ");
+            }
+        }
+        System.out.print("\n  ");
+        for(int i=0; i <= variableCount; i++){
+            System.out.print("-");
+        }
+        System.out.print("\n  ");
+        for(int i=0; i <= variableCount; i=i+20){
+            System.out.print(i + "                  ");
+        }
+        System.out.print("\n\n");
+        System.out.print("\tX-Axis: Variable ID     Y-Axis: True(1) or False(0)\n\n\n");
+                    
     }
     
 }
